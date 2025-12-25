@@ -1,37 +1,55 @@
 const milestones = [
-  { year: "2010", detail: "Launched as a specialized telecom hub[cite: 7]." },
+  {
+    year: "2010",
+    title: "Telecom Hub",
+    desc: "Launched as a specialized telecom hub, becoming a major player in the global market.",
+  },
   {
     year: "2019",
-    detail:
-      "Transitioned into healthcare with HIS and PACS Data Migration[cite: 8].",
+    title: "Health Tech Pivot",
+    desc: "Specialized into healthcare with Data Migration for hospital HIS and PACS systems.",
   },
   {
     year: "2021",
-    detail:
-      "Partnered with Caresoft for advanced Hospital Information Systems[cite: 9].",
+    title: "Caresoft HIS",
+    desc: "Partnered with Caresoft to deploy advanced Hospital Information Systems (HIS).",
+  },
+  {
+    year: "2022",
+    title: "Secant Healthcare",
+    desc: "Partnered with Secant Healthcare for industry-leading medical imaging and archiving.",
   },
   {
     year: "2025",
-    detail:
-      "Partnered with Consint AI for Generative AI-driven fraud detection[cite: 12].",
+    title: "Consint AI",
+    desc: "Strategic partnership with Consint AI for GenAI fraud detection and clinical intelligence.",
   },
 ];
 
 export default function Evolution() {
   return (
-    <section className="py-20 bg-white">
+    <section
+      id="evolution"
+      className="py-24 bg-background border-t border-white/5"
+    >
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-slate-900 text-center mb-16">
-          Our Strategic Evolution [cite: 5]
+        <h2 className="text-3xl font-bold text-white mb-16">
+          Strategic Evolution
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
           {milestones.map((m, idx) => (
             <div
               key={idx}
-              className="relative p-6 border-l-4 border-blue-600 bg-slate-50 rounded-r-lg"
+              className="group relative p-8 rounded-2xl border border-white/5 bg-white/2 hover:bg-white/5 transition-all"
             >
-              <span className="text-2xl font-bold text-blue-600">{m.year}</span>
-              <p className="mt-2 text-slate-600 leading-snug">{m.detail}</p>
+              <div className="text-blue-500 font-mono text-sm mb-4 tracking-widest">
+                {m.year}
+              </div>
+              <h3 className="text-white text-lg font-semibold mb-2">
+                {m.title}
+              </h3>
+              <p className="text-slate-500 text-sm leading-relaxed">{m.desc}</p>
+              <div className="absolute bottom-0 left-0 h-1 w-0 bg-blue-600 transition-all group-hover:w-full" />
             </div>
           ))}
         </div>

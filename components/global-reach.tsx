@@ -23,8 +23,8 @@ export default function GlobalReach() {
                 </p>
               </div>
               <p className="text-slate-500 italic mt-4">
-                "We provide reliable international carrier infrastructure for
-                SMS hubbing and wholesale voice."
+                &quot;We provide reliable international carrier infrastructure
+                for SMS hubbing and wholesale voice.&quot;
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function GlobalReach() {
             {/* Background map graphic would go here */}
             <div className="p-10 rounded-[2.5rem] bg-linear-to-br from-blue-600 to-blue-800 text-white shadow-2xl shadow-blue-900/20">
               <h3 className="text-xl font-bold mb-8 italic">
-                "Every second matters"
+                &quot;Every second matters&quot;
               </h3>
               <div className="grid grid-cols-2 gap-8">
                 <div>

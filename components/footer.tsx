@@ -8,12 +8,13 @@ export default function Footer() {
           <div>
             <h3 className="text-2xl font-bold text-white mb-6">Mission</h3>
             <p className="text-slate-400 leading-relaxed mb-6">
-              By combining Secant's imaging precision, Caresoft's administrative
-              excellence, and Consint AI's predictive intelligence, RJRTEL
-              provides a truly 'Full Circle' technology ecosystem.
+              By combining Secant&apos;s imaging precision, Caresoft&apos;s
+              administrative excellence, and Consint AI&apos;s predictive
+              intelligence, RJRTEL provides a truly &apos;Full Circle&apos;
+              technology ecosystem.
             </p>
             <p className="text-blue-400 font-medium">
-              We don't just move data; we ensure it is clean, secure, and
+              We don&apos;t just move data; we ensure it is clean, secure, and
               intelligent.
             </p>
           </div>

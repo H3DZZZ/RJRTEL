@@ -23,7 +23,7 @@ const pillars = [
   },
   {
     icon: <ShieldCheck className="w-6 h-6" />,
-    name: "Careverse HIS",
+    name: "Caresoft",
     edge: "End-to-end automation for a paperless healthcare future.",
     detail:
       "IoT-driven EMR, digital IPD records, and full module integration (OPD, Pharmacy, Billing).",
